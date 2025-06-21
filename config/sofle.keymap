@@ -22,8 +22,8 @@
             bindings = <
 &kp ESC    &kp F1  &kp F2     &kp F3    &kp F4        &kp F5                          &kp F6         &kp F7             &kp F8      &kp F9           &kp F10  &kp BSPC
 &kp GRAVE  &kp N1  &kp N2     &kp N3    &kp N4        &kp N5                          &kp N6         &kp N7             &kp N8      &kp N9           &kp N0   &kp F11
-&kp DEL    &kp X   &kp RBKT   &kp LBKT  &kp MINUS     &kp EQUAL                       &kp BSLH       &kp K_VOLUME_DOWN  &kp C_PLAY  &kp C_VOLUME_UP  &trans   &kp F12
-&kp LSHFT  &trans  &kp COMMA  &kp DOT   &kp LS(LBRC)  &kp LS(RBRC)  &none     &trans  &kp SEMICOLON  &kp K_PREV         &kp K_MUTE  &kp C_NEXT       &trans   &kp RSHFT
+&kp DEL    &kp X   &kp RBKT   &kp LBKT  &kp MINUS     &kp EQUAL                       &kp BSLH       &kp C_VOLUME_DOWN  &kp C_PLAY  &kp C_VOLUME_UP  &trans   &kp F12
+&kp LSHFT  &trans  &kp COMMA  &kp DOT   &kp LS(LBRC)  &kp LS(RBRC)  &none     &trans  &kp SEMICOLON  &kp C_PREV         &kp C_MUTE  &kp C_NEXT       &trans   &kp RSHFT
                    &kp LCTRL  &kp LALT  &kp LGUI      &trans        &trans    &trans  &trans         &kp LGUI           &kp RALT    &kp RCTRL
             >;
         };
@@ -31,11 +31,11 @@
         raise_layer {
             display-name = "RAI";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans    &trans    &trans     &trans  &kp BSPC
-&trans      &kp INS       &kp PRINTSCREEN  &trans        &trans        &kp DEL                         &kp PG_UP  &trans    &kp UP    &trans     &trans  &trans
-&trans      &trans        &trans           &trans        &trans        &kp CAPS                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LSHFT   &kp K_UNDO    &kp K_CUT        &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans     &trans    &trans    &trans     &trans  &kp RSHFT
-                          &kp LCTRL        &kp LALT      &kp LGUI      &trans        &trans    &trans  &trans     &kp LGUI  &kp RALT  &kp RCTRL
+&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4                    &trans     &trans    &trans    &trans     &trans  &kp BSPC
+&trans      &kp INS        &kp PRINTSCREEN  &trans         &trans          &kp DEL                         &kp PG_UP  &trans    &kp UP    &trans     &trans  &trans
+&trans      &trans         &trans           &trans         &trans          &kp CAPS                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&kp LSHFT   &kp C_AC_UNDO  &kp C_AC_CUT     &kp C_AC_COPY  &kp C_AC_PASTE  &trans        &trans    &trans  &trans     &trans    &trans    &trans     &trans  &kp RSHFT
+                           &kp LCTRL        &kp LALT       &kp LGUI        &trans        &trans    &trans  &trans     &kp LGUI  &kp RALT  &kp RCTRL
             >;
         };
     };
